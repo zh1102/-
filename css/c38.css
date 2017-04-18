@@ -1,0 +1,229 @@
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f3f7f8;
+}
+.box > .header {
+  height: 1.9rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.05rem solid #d7d7d7;
+  background: white;
+}
+.box > .header > img:nth-child(1) {
+  width: 0.575rem;
+  height: 0.975rem;
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+}
+.box > .header > p:nth-child(2) {
+  text-align: center;
+  line-height: 1.9rem;
+  font-size: 0.7rem;
+  color: #ffb6cc;
+  -webkit-box-flex: 1;
+}
+.box > .header > span:nth-child(3) {
+  font-size: 0.6rem;
+  line-height: 1.9rem;
+  color: #ffb6cc;
+  margin-right: 0.7rem;
+}
+.box > .con {
+  height: 3.025rem;
+  background: white;
+  overflow: hidden;
+}
+.box > .con > div {
+  margin-left: 0.7rem;
+}
+.box > .con > div > a {
+  width: 2.5rem;
+  height: 0.825rem;
+  background: #ffa2b5;
+  text-align: center;
+  line-height: 0.825rem;
+  color: white;
+  font-size: 0.475rem;
+  display: block;
+  border-radius: 0.15rem;
+  margin-top: 0.4rem;
+}
+.box > .con > div > p {
+  width: 8rem;
+  height: 0.875rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.4rem;
+}
+.box > .con > div > p > a {
+  -webkit-box-flex: 3;
+  width: 2.5rem;
+  height: 0.825rem;
+  background: #f8f8f8;
+  text-align: center;
+  line-height: 0.825rem;
+  color: #a3a5a4;
+  font-size: 0.475rem;
+  display: block;
+  border-radius: 0.15rem;
+  margin-right: 0.25rem;
+}
+.box > .con > div > p > a:nth-child(3) {
+  margin-right: 0;
+}
+.box > .xia {
+  height: 1.575rem;
+  background: white;
+  margin-top: 0.05rem;
+}
+.box > .xia > img {
+  width: 0.675rem;
+  height: 0.4rem;
+  margin: 0.375rem auto auto;
+}
+.box > .remen {
+  height: 1.6rem;
+  background: white;
+  margin-top: 0.325rem;
+  border-bottom: 0.05rem solid #ececec;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.box > .remen > a {
+  margin-top: 0.325rem;
+  height: 1.025rem;
+  -webkit-box-flex: 2;
+  display: block;
+  border-left: 0.05rem solid #f6f6f6;
+  line-height: 1.025rem;
+  text-align: center;
+  color: #ff9cb1;
+  font-size: 0.65rem;
+}
+.box > .list {
+  height: 5.85rem;
+  background: white;
+}
+.box > .list > ul > li {
+  height: 1.675rem;
+  border-bottom: 0.025rem solid #eeeeee;
+  list-style: none;
+}
+.box > .list > ul > li > a {
+  float: left;
+  margin-left: 0.95rem;
+  width: 0.975rem;
+  height: 0.55rem;
+  background: #bce5e9;
+  color: white;
+  font-size: 0.35rem;
+  text-align: center;
+  line-height: 0.55rem;
+  display: block;
+  margin-top: 0.55rem;
+}
+.box > .list > ul > li > span {
+  float: left;
+  margin-left: 0.325rem;
+  font-size: 0.575rem;
+  color: #2f2f2f;
+  line-height: 1.675rem;
+}
+.box > .dabai {
+  height: 10.8rem;
+  background: white;
+  margin-top: 0.325rem;
+  overflow: hidden;
+}
+.box > .dabai > div {
+  height: 1.95rem;
+  margin-top: 0.725rem;
+  margin-left: 0.7rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.box > .dabai > div > img {
+  width: 1.975rem;
+  height: 1.95rem;
+}
+.box > .dabai > div > p {
+  margin-left: 0.825rem;
+  font-size: 0.6rem;
+  line-height: 1.95rem;
+}
+.box > .dabai > div > a {
+  width: 1.175rem;
+  height: 0.5rem;
+  margin-top: 0.8rem;
+  font-size: 0.375rem;
+  text-align: center;
+  line-height: 0.5rem;
+  color: white;
+  display: block;
+  background: #c1e4ea;
+  margin-left: 0.325rem;
+  border-radius: 0.15rem;
+}
+.box > .dabai > div > span {
+  font-size: 0.425rme;
+  color: #dadada;
+  line-height: 1.95rem;
+  margin-right: 0.7rem;
+}
+.box > .dabai > div > div {
+  -webkit-box-flex: 1;
+}
+.box > .dabai > p {
+  font-size: 0.6rem;
+  margin-left: 0.7rem;
+  margin-top: 0.625rem;
+}
+.box > .dabai > div:nth-child(3) {
+  width: 14.65rem;
+  height: 4.75rem;
+  margin: 0.575rem auto auto;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.box > .dabai > div:nth-child(3) > img {
+  width: 4.75rem;
+  height: 4.75rem;
+  margin-right: 0.425rem;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.box > .dabai > div:nth-child(3) > img:nth-child(3) {
+  margin-right: 0;
+}
+.box > .dabai > p:nth-child(4) {
+  font-size: 0.6rem;
+  color: #434343;
+}
+.box > .new {
+  height: 2.1rem;
+  background: #ffa2b5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.box > .new > div {
+  width: 3.175rem;
+  margin: 0 auto;
+}
+.box > .new > div > img {
+  float: left;
+  width: 0.675rme;
+  height: 0.775rem;
+  margin-top: 0.65rem;
+}
+.box > .new > div > span {
+  float: left;
+  font-size: 0.675rem;
+  line-height: 2.1rem;
+  color: white;
+  margin-left: 0.25rem;
+}

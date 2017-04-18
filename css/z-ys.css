@@ -1,0 +1,462 @@
+.clear {
+  clear: both;
+}
+body {
+  text-align: left;
+}
+.swiper-wrapper {
+  margin-top: 1.85rem;
+}
+#ys-wrop header {
+  width: 100%;
+  height: 1.8rem;
+  position: fixed;
+  background: #fff;
+  z-index: 99;
+  border-bottom: 2px solid #f8f8f8;
+}
+#ys-wrop header .headerBx {
+  margin: 0 0.675rem;
+  position: relative;
+}
+#ys-wrop header .cs {
+  float: left;
+  height: 0.925rem;
+  margin-top: 0.425rem;
+  position: relative;
+  font-size: 0.65rem;
+  color: #ffa2b5;
+  padding-left: 0.9rem;
+}
+#ys-wrop header .cs img {
+  width: 0.7rem;
+  height: 0.95rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#ys-wrop header ul.title {
+  width: 5.35rem;
+  margin: 0 auto;
+}
+#ys-wrop header ul.title li {
+  float: left;
+  line-height: 1.8rem;
+  margin-left: 1.175rem;
+}
+#ys-wrop header ul.title li a {
+  font-size: 0.675rem;
+  color: #676767;
+  display: block;
+  height: 1.75rem;
+}
+#ys-wrop header ul.title li.active {
+  border-bottom: 2px solid #ffa2b5;
+  color: #ffa4b7;
+}
+#ys-wrop header ul.title li:nth-child(1) {
+  margin-left: 0.65rem;
+}
+#ys-wrop header .search {
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+#ys-wrop header .search img {
+  width: 100%;
+  height: 100%;
+}
+.xxksel {
+  width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 9;
+  height: 17.6rem;
+}
+.xxksel ol {
+  display: none;
+}
+.xxksel ol.flxxk {
+  width: 100%;
+  display: none;
+  position: relative;
+}
+.xxksel ol.flxxk li {
+  width: 100%;
+  height: 2.2rem;
+  display: -webkit-box;
+}
+.xxksel ol.flxxk li > a {
+  height: 100%;
+  width: 5.35rem;
+  background: #f1f1f1;
+  color: #6a6a6a;
+  border-top: 1px solid #F8F8F8;
+  font-size: 0.575rem;
+  display: block;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.xxksel ol.flxxk .liaActive {
+  background: #fff;
+}
+.xxksel ol.flxxk li > div {
+  -webkit-box-flex: 1;
+  height: 17.6rem;
+  display: none;
+  top: 0;
+  width: 70%;
+  position: absolute;
+  background: #fff;
+}
+.xxksel ol.flxxk li > div a {
+  font-size: 0.5rem;
+  margin-left: 1.2rem;
+  font-weight: bold;
+  display: block;
+  color: #686868;
+  float: left;
+  line-height: 2.2rem;
+}
+.xxksel ol:nth-child(2),
+.xxksel ol:nth-child(3) {
+  padding-bottom: 1.2rem;
+  background: #fff;
+}
+.xxksel ol:nth-child(2) li,
+.xxksel ol:nth-child(3) li {
+  height: 1.875rem;
+  background: #fff;
+  position: relative;
+}
+.xxksel ol:nth-child(2) li a,
+.xxksel ol:nth-child(3) li a {
+  display: block;
+  width: 89.0625%;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  line-height: 1.75rem;
+  font-size: 0.5rem;
+  color: #797979;
+  font-weight: bold;
+  border-top: 2px solid #f9f9f9;
+  margin-right: 0.2rem;
+}
+.xxksel ol:nth-child(2) li.lactive,
+.xxksel ol:nth-child(3) li.lactive {
+  background: #f1f1f1;
+}
+.zgc {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 7;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+#main {
+  width: 100%;
+}
+#main .ysMain {
+  width: 100%;
+  position: relative;
+}
+#main .ysMain .slidNav {
+  padding: 0 0.7rem;
+  height: 1.625rem;
+  border-bottom: 1px solid #f8f8f8;
+}
+#main .ysMain .slidNav ul {
+  display: -webkit-box;
+  position: relative;
+  width: 100%;
+}
+#main .ysMain .slidNav ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #6e6e6e;
+  line-height: 1.625rem;
+  position: relative;
+}
+#main .ysMain .slidNav ul li:after {
+  content: '';
+  position: absolute;
+  top: 0.725rem;
+  left: 3rem;
+  width: 0px;
+  height: 0px;
+  border: 0.175rem solid transparent;
+  border-top-color: #fff;
+}
+#main .ysMain .slidNav ul li:before {
+  content: '';
+  position: absolute;
+  top: 0.775rem;
+  left: 3rem;
+  width: 0px;
+  height: 0px;
+  border: 0.175rem solid transparent;
+  border-top-color: #828282;
+}
+#main .ysMain .slidNav ul li:nth-child(3):before {
+  left: 4rem;
+}
+#main .ysMain .slidNav ul li:nth-child(3):after {
+  left: 4rem;
+}
+#main .ysMain .slidNav ul span {
+  line-height: 1.625rem;
+  color: #fafafa;
+}
+#main .ysMain .ysmain {
+  width: 100%;
+}
+#main .ysMain .ysmain dl {
+  height: 4.8rem;
+  border-bottom: 1px solid #f8f8f8;
+  padding: 0 0.7rem;
+  display: -webkit-box;
+}
+#main .ysMain .ysmain dl dt {
+  width: 4.2rem;
+  height: 100%;
+  position: relative;
+}
+#main .ysMain .ysmain dl dt img {
+  width: 2.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#main .ysMain .ysmain dl dd {
+  -webkit-box-flex: 1;
+  height: 100%;
+}
+#main .ysMain .ysmain dl dd .top {
+  border-bottom: 2px solid #f9f9f9;
+  position: relative;
+}
+#main .ysMain .ysmain dl dd .top h1 {
+  font-size: 0.6rem;
+  font-weight: bold;
+  float: left;
+  padding-top: 0.675rem;
+  color: #818181;
+}
+#main .ysMain .ysmain dl dd .top h1 span {
+  font-size: 0.5rem;
+  color: #3b3b3;
+  padding-left: 0.45rem;
+}
+#main .ysMain .ysmain dl dd .top p {
+  clear: both;
+  font-size: 0.45rem;
+  padding-top: 0.35rem;
+  color: #a7a7a7;
+  padding-bottom: 0.3rem;
+}
+#main .ysMain .ysmain dl dd .top a {
+  display: block;
+  position: absolute;
+  width: 2.5rem;
+  height: 1rem;
+  background: #ffa2b5;
+  font-size: 0.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 5px;
+  top: 0.675rem;
+  right: 0;
+}
+#main .ysMain .ysmain dl dd .bottom {
+  width: 100%;
+}
+#main .ysMain .ysmain dl dd .bottom div {
+  margin-top: 0.325rem;
+  clear: both;
+}
+#main .ysMain .ysmain dl dd .bottom div span {
+  float: left;
+  color: #9f9f9f;
+}
+#main .ysMain .ysmain dl dd .bottom div span.bq {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+#main .ysMain .ysmain dl dd .bottom div span.bq img {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+#main .ysMain .ysmain dl dd .bottom div p {
+  float: left;
+  color: #868686;
+  margin: 0 0.55rem 0 0.425rem;
+  font-size: 0.5rem;
+}
+#main .yyMain {
+  width: 100%;
+}
+#main .yyMain .slidNav {
+  padding: 0 0.7rem;
+  height: 1.625rem;
+  border-bottom: 1px solid #f8f8f8;
+}
+#main .yyMain .slidNav ul {
+  display: -webkit-box;
+}
+#main .yyMain .slidNav ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #6e6e6e;
+  position: relative;
+  line-height: 1.625rem;
+}
+#main .yyMain .slidNav ul li:after {
+  content: '';
+  position: absolute;
+  top: 0.725rem;
+  left: 3rem;
+  width: 0px;
+  height: 0px;
+  border: 0.175rem solid transparent;
+  border-top-color: #fff;
+}
+#main .yyMain .slidNav ul li:before {
+  content: '';
+  position: absolute;
+  top: 0.775rem;
+  left: 3rem;
+  width: 0px;
+  height: 0px;
+  border: 0.175rem solid transparent;
+  border-top-color: #828282;
+}
+#main .yyMain .slidNav ul li:nth-child(3):before {
+  left: 4rem;
+}
+#main .yyMain .slidNav ul li:nth-child(3):after {
+  left: 4rem;
+}
+#main .yyMain .slidNav ul span {
+  line-height: 1.625rem;
+  color: #fafafa;
+}
+#main .yyMain .ysmain {
+  width: 100%;
+}
+#main .yyMain .ysmain dl {
+  border-bottom: 1px solid #f8f8f8;
+  padding: 0 0.7rem;
+  display: -webkit-box;
+}
+#main .yyMain .ysmain dl dt {
+  width: 4.2rem;
+  position: relative;
+}
+#main .yyMain .ysmain dl dt img {
+  width: 2.85rem;
+  height: 2.85rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#main .yyMain .ysmain dl dd {
+  -webkit-box-flex: 1;
+  height: 100%;
+}
+#main .yyMain .ysmain dl dd .top {
+  border-bottom: 2px solid #f9f9f9;
+  position: relative;
+  padding-bottom: 0.325rem;
+}
+#main .yyMain .ysmain dl dd .top p.wx {
+  padding-top: 0.45rem;
+  padding-bottom: 0.55rem;
+}
+#main .yyMain .ysmain dl dd .top p.wx a {
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.125rem;
+  float: left;
+}
+#main .yyMain .ysmain dl dd .top p.wx a img {
+  width: 100%;
+  height: 100%;
+}
+#main .yyMain .ysmain dl dd .top p.wx span {
+  float: left;
+  font-size: 0.45rem;
+  color: #999;
+  padding-left: 1.7rem;
+}
+#main .yyMain .ysmain dl dd .top h1 {
+  font-size: 0.6rem;
+  font-weight: bold;
+  float: left;
+  padding-top: 0.725rem;
+  color: #818181;
+}
+#main .yyMain .ysmain dl dd .top h1 span {
+  font-size: 0.5rem;
+  color: #3b3b3;
+  padding-left: 0.45rem;
+}
+#main .yyMain .ysmain dl dd .top p {
+  clear: both;
+  font-size: 0.45rem;
+  color: #a7a7a7;
+  overflow: hidden;
+}
+#main .yyMain .ysmain dl dd .top > a {
+  display: block;
+  position: absolute;
+  width: 2.5rem;
+  height: 1rem;
+  background: #ffa2b5;
+  font-size: 0.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 5px;
+  top: 0.675rem;
+  right: 0;
+}
+#main .yyMain .ysmain dl dd .bottom {
+  width: 100%;
+  padding-bottom: 0.425rem;
+}
+#main .yyMain .ysmain dl dd .bottom div {
+  padding-top: 0.35rem;
+  overflow: hidden;
+}
+#main .yyMain .ysmain dl dd .bottom div span {
+  float: left;
+  color: #9f9f9f;
+}
+#main .yyMain .ysmain dl dd .bottom div span.bq {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+#main .yyMain .ysmain dl dd .bottom div span.bq img {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+#main .yyMain .ysmain dl dd .bottom div p {
+  float: left;
+  color: #868686;
+  margin: 0 0.55rem 0 0.425rem;
+  font-size: 0.5rem;
+}

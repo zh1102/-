@@ -1,0 +1,145 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+header {
+  width: 100%;
+  height: 1.9rem;
+  background: #FFA2B4;
+}
+header input {
+  width: 10rem;
+  height: 1rem;
+  margin-top: 0.5rem;
+  float: left;
+  margin-left: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0 0.7rem;
+  outline: none;
+}
+header input::-webkit-input-placeholder {
+  color: #FD9EB2;
+}
+header label {
+  font-size: 0.55rem;
+  color: #FEF8FB;
+  line-height: 1.9rem;
+  float: right;
+  margin-right: 0.5rem;
+}
+.main {
+  width: 100%;
+  overflow: hidden;
+}
+.main .hot,
+.main .history {
+  width: 15rem;
+  overflow: hidden;
+  margin: 0.8rem auto;
+}
+.main .hot h1,
+.main .history h1 {
+  font-size: 0.7rem;
+  color: #FEADBF;
+  text-indent: 0.2rem;
+}
+.main .hot a,
+.main .history a {
+  width: 2.7rem;
+  height: 1.2rem;
+  float: left;
+  border: 0.025rem solid #ADADAD;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #ADADAD;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+.main .history h1 {
+  color: #9E9E9E;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #9a9a9a;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #9a9a9a;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #9a9a9a;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #9a9a9a;
+}
+/*# sourceMappingURL=searchPage.css.map */

@@ -1,0 +1,114 @@
+.box {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.box > .header {
+  height: 1.9rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.025rem solid #eee;
+  background: white;
+}
+.box > .header > img:nth-child(1) {
+  width: 0.575rem;
+  height: 0.975rem;
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+}
+.box > .header > p:nth-child(2) {
+  text-align: center;
+  line-height: 1.9rem;
+  font-size: 0.7rem;
+  color: #ffb6cc;
+  -webkit-box-flex: 1;
+}
+.box > .header a:nth-child(3) {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.575rem;
+  margin-right: 0.7rem;
+  display: block;
+}
+.box > .header a:nth-child(3) img {
+  width: 100%;
+  height: 100%;
+}
+.box > .con {
+  width: 15.325rem;
+  height: 25.7rem;
+  background: #f8f8f8;
+}
+.box > .con > .left {
+  width: 4.175rem;
+  float: left;
+  background: white;
+  height: 25.5rem;
+}
+.box > .con > .left > a {
+  height: 1.725rem;
+  text-align: center;
+  font-size: 0.6rem;
+  line-height: 1.725rem;
+  color: #707070;
+  display: block;
+}
+.box > .con > .left > a:nth-child(1) {
+  background: #f8f8f8;
+  border-left: 0.1rem solid #ffa2b4;
+}
+.box > .con > .right {
+  float: right;
+  width: 10.65rem;
+  height: 25.5rem;
+}
+.box > .con > .right > div {
+  width: 10.65rem;
+  height: 5.8rem;
+  background: white;
+  margin-top: 0.4rem;
+}
+.box > .con > .right > div > div {
+  width: 9.8rem;
+  height: 1.45rem;
+  margin: 0 auto;
+}
+.box > .con > .right > div > div > span {
+  float: left;
+  font-size: 0.575rem;
+  color: #303030;
+  line-height: 1.45rem;
+}
+.box > .con > .right > div > div > img {
+  width: 0.3rem;
+  height: 0.55rem;
+  float: right;
+  margin-top: 0.45rem;
+}
+.box > .con > .right > div > div:nth-child(2) {
+  width: 8.8rem;
+  height: 0.875rem;
+  border-bottom: 0.05rem solid #f7f7f7;
+}
+.box > .con > .right > div > div:nth-child(2) > p {
+  font-size: 0.425rem;
+  color: #565656;
+  float: left;
+  margin-right: 0.575rem;
+}
+.box > .con > .right > div > div:nth-child(3) {
+  width: 8.75rem;
+  height: 2rem;
+  margin: auto;
+  margin-top: 0.55rem;
+}
+.box > .con > .right > div > div:nth-child(3) > p {
+  font-size: 0.425rem;
+  color: #565656;
+  float: left;
+  margin-right: 0.575rem;
+  line-height: 0.8rem;
+}
+/*# sourceMappingURL=c10.css.map */

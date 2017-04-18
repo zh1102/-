@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/ljn_social.css" />
+		<link rel="stylesheet" type="text/css" href="../css/ljn_swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<script src="../js/ljn_swiper.min.js"></script>
+		<title>社交</title>
+	</head>
+
+	<body>
+		<div class="header">社交
+			<img src="../img/ljn/headera.jpg" />
+		</div>
+		<div class="hot">
+			<div class="title">
+				<p>热门圈子</p>
+				<a href="ljn_ring.html">查看全部
+				<img src="../img/ljn/youjt.jpg" />
+				</a>
+			</div>
+			<ul class="list">
+				<li>
+					<a href="ljn_expert.html"><img src="../img/ljn/hota.jpg" /></a>
+					<p>完美达人堂</p>
+				</li>
+				<li>
+					<a href="c37.html"><img src="../img/ljn/hotb.jpg" /></a>
+					<p>明星也整容</p>
+				</li>
+				<li>
+					<img src="../img/ljn/hotc.jpg" />
+					<p>免费整容</p>
+				</li>
+				<li>
+					<a href="c11.html"><img src="../img/ljn/hotd.jpg" /></a>
+					<p>眼部整容</p>
+				</li>
+			</ul>
+		</div>
+		<div class="banner-box">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/ljn/banner.jpg" /></div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="cut" id="cut">
+			<span class="top" id="top">
+				<a href="#" class="active">热门</a>
+				<a href="#">科普</a>
+				<a href="#">资讯</a>
+			</span>
+			<div class="show">
+				<span class="title">
+					<img src="../img/ljn/cuttou.jpg" />
+					<p>大白baby</p>
+					<span>达人</span>
+				</span>
+				<p class="biao">自体软骨隆鼻第52天<b>一天前</b></p>
+				<img src="../img/ljn/cutta.jpg" />
+				<img src="../img/ljn/cutta.jpg" />
+				<img src="../img/ljn/cuttb.jpg" style="width: 4.325rem;height: 4.75rem;margin-right: 0;float: left;" />
+			</div>
+			<div>
+				<span class="title">
+					<img src="../img/ljn/cuttoua.jpg" />
+					<p>好人221</p>
+					<span>官网</span>
+				</span>
+				<p class="biao">自体软骨隆鼻第52天<b>一天前</b></p>
+				<img src="../img/ljn/cuttf.jpg" style="width: 14.675rem;height: 6rem;"/>
+			</div>
+			<div>
+				<span class="title">
+					<img src="../img/ljn/cuttoub.jpg" />
+					<p>好人221</p>
+					<span>达人</span>
+				</span>
+				<p class="biao">想要小v脸 该整哪里<b>73答案</b></p>
+				<img src="../img/ljn/cuttc.jpg" />
+				<img src="../img/ljn/cuttd.jpg" />
+				<img src="../img/ljn/cutte.jpg" style="width: 4.325rem;height: 4.75rem;margin-right: 0;float: left;" />
+			</div>
+			
+				
+				
+			</div>
+			<footer>
+			<ul>
+				<li>
+					<a href="homepage.html">
+						<img src="../img/fyz/home2.jpg" />
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="z-yisheng.html">
+						<img src="../img/fyz/bottom_02.gif" />
+						<span>医生</span>
+					</a>
+				</li>
+				<li>
+					<a href="appointment.html" class="show">
+						<img src="../img/fyz/bottom_05.gif" />
+					</a>
+				</li>
+				<li>
+					<a href="ljn_Social.html">
+						<img src="../img/fyz/footer2.jpg" />
+						<span style="color: #FFBFCD;">社交</span>
+					</a>
+				</li>
+				<li>
+					<a href="my.html">
+						<img src="../img/fyz/bottom_04.gif" />
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<link rel="stylesheet" type="text/css" href="../css/footer_public.css"/>
+
+			
+	</body>
+	<script src="../js/public.js"></script>
+	<script>
+				
+					var cut = document.getElementById('cut');
+					var aBtn = cut.getElementsByTagName('a');
+					var aDiv = cut.getElementsByTagName('div');
+					for(var i = 0; i < aBtn.length; i++) {
+						aBtn[i].index = i;
+						aBtn[i].onclick = function() {
+							for(var i = 0; i < aBtn.length; i++) {
+								aBtn[i].className = '';
+								aDiv[i].className = '';
+							}
+							aDiv[this.index].className = 'show';
+							this.className = 'active';
+						}
+					}
+			
+				var swiper = new Swiper('.swiper-container', {
+					pagination: '.swiper-pagination',
+					autoplay: 2500,
+					autoplayDisableOnInteraction: false,
+					paginationClickable: true,
+					loop:true
+				});
+			</script>
+</html>

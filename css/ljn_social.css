@@ -1,0 +1,253 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+body {
+  background: #f3f7f7;
+}
+.header {
+  width: 100%;
+  height: 1.9rem;
+  border-bottom: 0.05rem solid #d7d7d7;
+  text-align: center;
+  line-height: 1.9rem;
+  color: #fa92a7;
+  font-size: 0.75rem;
+  position: relative;
+  background: #fff;
+}
+.header > img {
+  width: 0.9rem;
+  height: 0.975rem;
+  position: absolute;
+  display: block;
+  top: 0.525rem;
+  right: 0.725rem;
+}
+.hot {
+  width: 100%;
+  height: 6.525rem;
+  margin-bottom: 0.325rem;
+  background: #fff;
+}
+.hot .title {
+  height: 1.975rem;
+  width: 100%;
+}
+.hot .title > p {
+  font-size: 0.625rem;
+  color: #333;
+  width: 5rem;
+  height: 1.975rem;
+  line-height: 1.975rem;
+  float: left;
+  font-weight: bold;
+  text-indent: 0.675rem;
+}
+.hot .title a {
+  display: inline-block;
+  float: right;
+  width: 7.5rem;
+  font-size: 0.625rem;
+  color: #dadada;
+  padding-right: 1.425rem;
+  box-sizing: border-box;
+  height: 1.975rem;
+  text-align: right;
+  line-height: 1.975rem;
+  position: relative;
+}
+.hot .title a > img {
+  width: 0.325rem;
+  height: 0.55rem;
+  position: absolute;
+  display: block;
+  top: 0.7rem;
+  right: 0.75rem;
+}
+.hot .list {
+  width: 100%;
+  height: 4.55rem;
+}
+.hot .list li {
+  width: 25%;
+  height: 4.55rem;
+  float: left;
+}
+.hot .list li img {
+  width: 2.825rem;
+  height: 2.825rem;
+  display: block;
+  margin: 0 auto;
+}
+.hot .list li > p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.55rem;
+  color: #333;
+  height: 1.725rem;
+  line-height: 1.725rem;
+}
+.banner-box {
+  width: 100%;
+  height: 5.5rem;
+  background: #fff;
+  padding-top: 0.775rem;
+}
+.cut {
+  width: 100%;
+  height: 12.575rem;
+  background: #fff;
+}
+.cut .top {
+  padding: 0 0.675rem 0 0.9rem;
+  height: 2.1rem;
+  border-bottom: 0.05rem solid #eaeaea;
+  display: block;
+  display: flex;
+}
+.cut .top a {
+  flex: 1;
+  text-align: center;
+  height: 1.2rem;
+  padding-top: 0.825rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+.cut .top .active {
+  border-bottom: 0.075rem solid #ffa2b5;
+  color: #ffa2b5;
+}
+.cut div {
+  padding: 0 0.7rem;
+  height: 10.425rem;
+  display: none;
+}
+.cut div .title {
+  width: 100%;
+  height: 2.675rem;
+  display: block;
+}
+.cut div .title img {
+  width: 1.95rem;
+  height: 1.925rem;
+  display: block;
+  float: left;
+  margin: 0.725rem 0.825rem 0 0;
+}
+.cut div .title p {
+  height: 1.925rem;
+  line-height: 1.925rem;
+  font-size: 0.6rem;
+  color: #333;
+  float: left;
+  margin: 0.725rem 0.325rem 0 0;
+}
+.cut div .title span {
+  display: block;
+  background: #c0e3e9;
+  width: 1.15rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 0.125rem;
+  float: left;
+  color: #fff;
+  font-size: 0.375rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.cut div .biao {
+  color: #333;
+  font-size: 0.675rem;
+  width: 100%;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  position: relative;
+}
+.cut div .biao b {
+  position: absolute;
+  right: 0;
+  color: #d1d1d1;
+  font-size: 0.575rem;
+}
+.cut div img {
+  display: block;
+  width: 4.75rem;
+  height: 4.75rem;
+  float: left;
+  margin-right: 0.375rem;
+}
+.cut .show {
+  display: block;
+}
+/*# sourceMappingURL=ljn_social.css.map */

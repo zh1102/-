@@ -1,0 +1,626 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+header {
+  width: 100%;
+  height: 2.2rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+}
+header .left {
+  width: 3.3rem;
+  height: 100%;
+  float: left;
+  color: #FFA4B6;
+  font-size: 0.7rem;
+}
+header .left p {
+  text-align: center;
+  line-height: 2.2rem;
+}
+header .left p img {
+  width: 0.75rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+header .homesearch {
+  float: left;
+  width: 12rem;
+  height: 1.25rem;
+  background: #F5F5F5;
+  border-radius: 0.4rem;
+  margin-top: 0.5rem;
+}
+header .homesearch > input {
+  width: 9.5rem;
+  height: 100%;
+  margin: 0 0.5rem;
+  border: none;
+  background: #F5F5F5;
+  float: left;
+  text-align: center;
+  font-size: 0.5rem;
+  outline: none;
+}
+header .homesearch img {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+  float: left;
+}
+.banner {
+  width: 100%;
+  height: 8rem;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2.1rem;
+}
+.banner > ul {
+  width: 500%;
+  height: 100%;
+}
+.banner > ul li {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.banner > ul li img {
+  width: 100%;
+  height: 100%;
+}
+.banner ol {
+  width: 3rem;
+  height: 0.35rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.4rem;
+  margin-left: -1.5rem;
+}
+.banner ol li {
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin: 0 0.1rem;
+}
+.banner ol .white {
+  background: #4CCBBA;
+}
+.nav {
+  width: 100%;
+  height: 7.5rem;
+  padding-top: 0.7rem;
+}
+.nav > div {
+  width: 25%;
+  height: 3rem;
+  float: left;
+  margin-bottom: 0.3rem;
+}
+.nav > div > a {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+.nav > div > a img {
+  width: 100%;
+  height: 100%;
+}
+.nav > div p {
+  width: 100%;
+  height: calc(108/40rem - 80/40rem);
+  font-size: 0.45rem;
+  text-align: center;
+  color: #4A4A4A;
+}
+.weizx {
+  width: 100%;
+  height: 7.5rem;
+  border-top: 0.45rem solid #F5F5F5;
+}
+.weizx .left {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #F5F5F5;
+  float: left;
+}
+.weizx .left > p {
+  font-size: 0.65rem;
+  color: #FCB0BF;
+  text-align: center;
+  line-height: 1.35rem;
+}
+.weizx .left > p span {
+  margin-right: 0.5rem;
+}
+.weizx .left a {
+  width: 100%;
+  height: 5.7rem;
+  display: block;
+}
+.weizx .left a img {
+  width: 100%;
+  height: 100%;
+}
+.weizx .right {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.weizx .right .cen {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid #F5F5F5;
+}
+.weizx .right .cen .bar_text {
+  width: 4.45rem;
+  height: 2rem;
+  margin-top: 0.9rem;
+  overflow: hidden;
+  float: left;
+}
+.weizx .right .cen .bar_text p {
+  font-size: 0.65rem;
+  color: #FCB0BF;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.weizx .right .cen .bar_text span {
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.35rem;
+  color: #7C7C7C;
+}
+.weizx .right .cen .bar_text span i {
+  width: 0.2rem;
+  display: inline-block;
+}
+.weizx .right .cen .bar_img {
+  width: 2.8rem;
+  height: 3.45rem;
+  float: left;
+}
+.weizx .right .cen .bar_img img {
+  width: 100%;
+  height: 100%;
+}
+.weizx .right .cen:nth-child(2) {
+  border: none;
+}
+.main {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.main .main_nav {
+  width: 100%;
+  height: 1.75rem;
+  border-top: 0.025rem solid #EEEDEB;
+  border-bottom: 0.025rem solid #EEEDEB;
+}
+.main .main_nav > ul {
+  width: 100%;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  display: flex;
+}
+.main .main_nav > ul li {
+  flex: 1;
+  font-size: 0.6rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  color: #4B4B4B;
+}
+.main .main_nav > ul .active {
+  border-bottom: 0.025rem solid #FDA6B7;
+}
+.main .main_nav > ul .active > a {
+  color: #FDA6B7;
+}
+.main .main_cont {
+  width: 100%;
+}
+.main .content {
+  width: 500%;
+  overflow: hidden !important;
+}
+.main .content #hot {
+  width: 20%;
+  overflow: hidden;
+  float: left;
+}
+.main .content #hot > p {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 0.6rem;
+}
+.main .content #hot > p i {
+  margin: 0 0.4rem;
+  font-size: 1rem;
+}
+.main .content #hot > div {
+  width: 100%;
+  border-bottom: 0.25rem solid #EDEEED;
+}
+.main .content #hot > div .left_img {
+  width: 3.55rem;
+  height: 3.4rem;
+  float: left;
+  margin: 0 1.75rem;
+}
+.main .content #hot > div .left_img img {
+  width: 100%;
+  height: 100%;
+}
+.main .content #hot > div .right_text {
+  width: 8.75rem;
+  overflow: hidden;
+  height: 3.4rem;
+  float: left;
+}
+.main .content #hot > div .right_text p {
+  width: 100%;
+  height: 0.7rem;
+  font-size: 0.5rem;
+  line-height: 0.7rem;
+  overflow: hidden;
+}
+.main .content #hot > div .right_text p:nth-child(1) {
+  margin-top: 0.6rem;
+  color: #161616;
+}
+.main .content #hot > div .right_text p:nth-child(2) {
+  color: #7B7B7B;
+}
+.main .content #hot > div .right_text span {
+  font-size: 0.7rem;
+  color: #FBA3B6;
+  line-height: 1rem;
+  float: left;
+}
+.main .content #hot > div .right_text s {
+  float: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  margin-left: 0.6rem;
+}
+.main .content #hot > div:nth-child(2),
+.main .content #hot > div:nth-child(4) {
+  background: -webkit-linear-gradient(left, #E6E5EA, #fff);
+  height: 3.4rem;
+}
+.main .content #hot > div:nth-child(3) {
+  background: -webkit-linear-gradient(left, #F5EBDF, #fff);
+  height: 3.4rem;
+}
+.main .content #hot .attention {
+  width: 15rem;
+  overflow: hidden;
+  margin: 0.6rem auto 0;
+}
+.main .content #hot .attention .head {
+  width: 100%;
+  height: 2rem;
+}
+.main .content #hot .attention .head .head_p {
+  width: 7.5rem;
+  height: 2rem;
+  float: left;
+}
+.main .content #hot .attention .head .head_p img {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.main .content #hot .attention .head .head_p h5 {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #070707;
+  margin-top: 0.2rem;
+  text-align: left;
+}
+.main .content #hot .attention .head .head_p p {
+  font-size: 0.45rem;
+  line-height: 1rem;
+  color: #8C8C8C;
+}
+.main .content #hot .attention .head button {
+  width: 2.4rem;
+  height: 1rem;
+  float: right;
+  margin-top: 0.8rem;
+  background: #FFFFFF;
+  font-size: 0.5rem;
+  color: #FB4F7A;
+  border: 0.025rem solid #F0F0F0;
+  border-radius: 0.1rem;
+}
+.main .content #hot .attention .cont {
+  width: 100%;
+  height: 7.35rem;
+  margin-top: 0.7rem;
+}
+.main .content #hot .attention .cont img {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.main .content #hot .attention .cont p {
+  float: left;
+  font-size: 0.5rem;
+  color: #333;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  line-height: 0.75rem;
+}
+.main .content #concern,
+.main .content #humpNose,
+.main .content #breastImplant {
+  width: 20%;
+  overflow: hidden;
+  float: left;
+}
+.main .content #concern .attention,
+.main .content #humpNose .attention,
+.main .content #breastImplant .attention {
+  width: 15rem;
+  overflow: hidden;
+  margin: 0.6rem auto 0;
+  border-bottom: 0.25rem solid #F5F5F5;
+}
+.main .content #concern .attention .head,
+.main .content #humpNose .attention .head,
+.main .content #breastImplant .attention .head {
+  width: 100%;
+  height: 2rem;
+}
+.main .content #concern .attention .head .head_p,
+.main .content #humpNose .attention .head .head_p,
+.main .content #breastImplant .attention .head .head_p {
+  width: 7.5rem;
+  height: 2rem;
+  float: left;
+}
+.main .content #concern .attention .head .head_p img,
+.main .content #humpNose .attention .head .head_p img,
+.main .content #breastImplant .attention .head .head_p img {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.main .content #concern .attention .head .head_p h5,
+.main .content #humpNose .attention .head .head_p h5,
+.main .content #breastImplant .attention .head .head_p h5 {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #070707;
+  margin-top: 0.2rem;
+  text-align: left;
+}
+.main .content #concern .attention .head .head_p p,
+.main .content #humpNose .attention .head .head_p p,
+.main .content #breastImplant .attention .head .head_p p {
+  font-size: 0.45rem;
+  line-height: 1rem;
+  color: #8C8C8C;
+}
+.main .content #concern .attention .head button,
+.main .content #humpNose .attention .head button,
+.main .content #breastImplant .attention .head button {
+  width: 2.4rem;
+  height: 1rem;
+  float: right;
+  margin-top: 0.8rem;
+  background: #FFFFFF;
+  font-size: 0.5rem;
+  color: #FB4F7A;
+  border: 0.025rem solid #F0F0F0;
+  border-radius: 0.1rem;
+}
+.main .content #concern .attention .cont,
+.main .content #humpNose .attention .cont,
+.main .content #breastImplant .attention .cont {
+  width: 100%;
+  height: 7.35rem;
+  margin-top: 0.7rem;
+}
+.main .content #concern .attention .cont img,
+.main .content #humpNose .attention .cont img,
+.main .content #breastImplant .attention .cont img {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.main .content #concern .attention .cont p,
+.main .content #humpNose .attention .cont p,
+.main .content #breastImplant .attention .cont p {
+  float: left;
+  font-size: 0.5rem;
+  color: #333;
+  margin-top: 0.25rem;
+  line-height: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.main .content #doubleEye > div {
+  width: 14.65rem;
+  height: 4.9rem;
+  border-bottom: 0.05rem solid #dddddd;
+  margin: auto;
+  overflow: hidden;
+}
+.main .content #doubleEye > div > left {
+  width: 3.85rem;
+  height: 3.85rem;
+  float: left;
+}
+.main .content #doubleEye > div > left img {
+  width: 3.85rem;
+  height: 3.85rem;
+  margin-top: 0.425rem;
+}
+.main .content #doubleEye > div > right {
+  float: right;
+  width: 9.675rem;
+  height: 3.85rem;
+  margin-top: 0.425rem;
+}
+.main .content #doubleEye > div > right > p:nth-child(1) {
+  font-size: 0.575rem;
+  color: #3E3E3E;
+}
+.main .content #doubleEye > div > right > p:nth-child(2) {
+  font-size: 0.475rem;
+  margin-top: 0.25rem;
+  color: #737373;
+}
+.main .content #doubleEye > div > right > p:nth-child(3) {
+  font-size: 0.475rem;
+  margin-top: 0.2rem;
+  color: #737373;
+}
+.main .content #doubleEye > div > right > p:nth-child(4) {
+  margin-top: 0.2rem;
+}
+.main .content #doubleEye > div > right > p:nth-child(4) > span:nth-child(1) {
+  float: left;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+.main .content #doubleEye > div > right > p:nth-child(4) > span:nth-child(2) {
+  float: left;
+  font-size: 0.375rem;
+  color: #737373;
+  text-decoration: line-through;
+  margin-top: 0.09rem;
+  margin-left: 0.225rem;
+}
+.main .content #doubleEye > div > right > p:nth-child(4) > span:nth-child(3) {
+  float: right;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.05rem;
+  background: #FBFCF7;
+}
+footer ul {
+  width: 100%;
+  height: 100%;
+}
+footer ul li {
+  width: 20%;
+  height: 2.2rem;
+  float: left;
+}
+footer ul li a {
+  display: block;
+  width: 2.2rem;
+  height: 100%;
+  margin: 0 auto;
+}
+footer ul li a img {
+  width: 0.9rem;
+  height: 1rem;
+  margin: 0.2rem auto;
+}
+footer ul li a span {
+  width: 100%;
+  line-height: 0.6rem;
+  text-align: center;
+  display: block;
+  color: #A6A6A4;
+}
+footer ul li .show {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: -0.55rem;
+}
+footer ul li .show img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<title>预约</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/appointment.css"/>
+		<link rel="stylesheet" href="../css/swiper.min.css" />
+		<script src="../js/public_a.js"></script>
+	</head>
+	<body>
+		<div id="ys-wrop">
+			<header>
+				<div class="headerBx">
+					<div class="cs" id="Return"><img src="../img/jxc/header_01.gif"/></div>
+				<ul class="title">
+					<li class="active"><a href="javascript:;">预约</a></li>
+					<li><a href="javascript:;">订单</a></li>
+				</ul>
+				</div>
+			</header>
+			<div id="main" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="ysMain swiper-slide">
+						<nav>
+							<span>全部</span>
+							<span>待付款</span>
+							<span>未使用</span>
+							<span>购物车</span>
+							<span>退款单</span>
+						</nav>
+						<img src="../img/jxc/yuyue.gif" alt="" class="mei" />
+					</div>
+					<div class="yyMain swiper-slide">
+						<nav>
+							<span>全部</span>
+							<span>待付款</span>
+							<span>未使用</span>
+							<span>购物车</span>
+							<span>退款单</span>
+						</nav>
+						<img src="../img/jxc/yuyue.gif" alt="" class="mei" />
+					</div>
+				</div>		
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/public.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script> 
+		var mySwiper = new Swiper('.swiper-container',{
+			onSlideChangeStart: function(swiper){
+    		   $('.title li').eq(swiper.activeIndex).addClass('active').siblings().removeClass();
+    		}
+			})
+			$('.title li').bind('touchend',function(){
+				mySwiper.slideTo($(this).index(), 500, true);//切换到第一个slide，速度为1秒
+			})
+		
+</script>
+</html>

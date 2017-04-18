@@ -1,0 +1,300 @@
+.box {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.box > .header {
+  height: 1.9rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.025rem solid #eee;
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.box > .header > img:nth-child(1) {
+  width: 0.575rem;
+  height: 0.975rem;
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+}
+.box > .header > p:nth-child(2) {
+  text-align: center;
+  line-height: 1.9rem;
+  font-size: 0.7rem;
+  color: #ffb6cc;
+  -webkit-box-flex: 1;
+}
+.box > .header > img:nth-child(3) {
+  width: 0.9rem;
+  height: 0.3rem;
+  margin-top: 0.8rem;
+  margin-right: 0.7rem;
+}
+.box > .jianjie {
+  height: 2.7rem;
+  background: white;
+  overflow: hidden;
+  margin-top: 1.9rem;
+}
+.box > .jianjie > div {
+  width: 14.65rem;
+  height: 2.55rem;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 0.025rem solid #d7d7d7;
+}
+.box > .jianjie > div > p {
+  height: 0.525rem;
+  margin-top: 0.55rem;
+}
+.box > .jianjie > div > p > span {
+  float: left;
+  font-size: 0.475rem;
+}
+.box > .jianjie > div > p > a {
+  float: right;
+  font-size: 0.35rem;
+  color: #f9b6c8;
+}
+.box > .jianjie > div > i {
+  font-size: 0.45rem;
+  margin-top: 0.35rem;
+  display: block;
+  text-align: start;
+}
+.box > .wei {
+  height: 4.2rem;
+  padding: 0 0.7rem;
+  background: white;
+  overflow: hidden;
+}
+.box > .wei > p {
+  font-size: 0.475rem;
+  color: #121212;
+  margin-top: 0.25rem;
+}
+.box > .wei > p > span {
+  font-size: 0.475rem;
+  color: #818181;
+}
+.box > .nav {
+  height: 1.45rem;
+  background: white;
+  margin-top: 0.425rem;
+}
+.box > .nav > div {
+  height: 1.4rem;
+  width: 14.65rem;
+  margin: auto;
+  border-bottom: 0.025rem solid #d8d8d8;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.box > .nav > div > a {
+  -webkit-box-flex: 2;
+  display: block;
+  font-size: 0.55rem;
+  color: #6a6a6a;
+  height: 1.36rem;
+  line-height: 1.36rem;
+}
+.box > .nav > div > a:nth-child(1) {
+  width: 1.075rem;
+  color: #fda0b3;
+}
+.box > .paixu {
+  height: 1.325rem;
+  background: white;
+}
+.box > .paixu > div {
+  width: 14.65rem;
+  height: 1.275rem;
+  border-bottom: 0.025rem solid #d8d8d8;
+  margin: auto;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.box > .paixu > div > a {
+  -webkit-box-flex: 3;
+  display: block;
+}
+.box > .paixu > div > a > span {
+  float: left;
+  font-size: 0.425rem;
+  line-height: 1.275rem;
+  text-align: center;
+  margin-left: 1.7rem;
+}
+.box > .paixu > div > a > img {
+  float: left;
+  width: 0.4rem;
+  height: 0.2rem;
+  margin-top: 0.55rem;
+  margin-left: 0.125rem;
+}
+.box > .con {
+  height: 7rem;
+  background: white;
+  overflow: hidden;
+}
+.box > .con > div:nth-child(1) {
+  width: 14.65rem;
+  height: 5.3rem;
+  border-bottom: 0.05rem solid #dddddd;
+  margin: auto;
+  overflow: hidden;
+}
+.box > .con > div:nth-child(1) > left {
+  width: 3.85rem;
+  height: 3.85rem;
+  float: left;
+}
+.box > .con > div:nth-child(1) > left > img {
+  width: 3.85rem;
+  height: 3.85rem;
+  margin-top: 0.7rem;
+}
+.box > .con > div:nth-child(1) > right {
+  float: right;
+  width: 9.675rem;
+  height: 3.85rem;
+  margin-top: 0.425rem;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(1) {
+  font-size: 0.575rem;
+  color: #000;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(2) {
+  font-size: 0.475rem;
+  margin-top: 0.25rem;
+  color: #737373;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(3) {
+  font-size: 0.475rem;
+  margin-top: 0.2rem;
+  color: #737373;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(4) {
+  margin-top: 0.2rem;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(1) {
+  float: left;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(2) {
+  float: left;
+  font-size: 0.375rem;
+  color: #737373;
+  text-decoration: line-through;
+  margin-top: 0.09rem;
+  margin-left: 0.225rem;
+}
+.box > .con > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(3) {
+  float: right;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+.box > .con > div:nth-child(2) {
+  height: 1rem;
+  margin: auto;
+  width: 14.65rem;
+}
+.box > .con > div:nth-child(2) > a {
+  float: left;
+  margin-left: 0.3rem;
+  line-height: 1rem;
+  font-size: 0.475rem;
+}
+.box > .con > div:nth-child(2) > a:nth-child(1) {
+  color: #ffa2b5;
+}
+.box > .con > div:nth-child(2) > a:nth-child(3) {
+  color: #ffa2b5;
+}
+.box > .cons {
+  height: 6.5rem;
+  background: white;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+.box > .cons > div:nth-child(1) {
+  width: 14.65rem;
+  height: 5.3rem;
+  border-bottom: 0.05rem solid #dddddd;
+  margin: auto;
+  overflow: hidden;
+}
+.box > .cons > div:nth-child(1) > left {
+  width: 3.85rem;
+  height: 3.85rem;
+  float: left;
+}
+.box > .cons > div:nth-child(1) > left > img {
+  width: 3.85rem;
+  height: 3.85rem;
+  margin-top: 0.7rem;
+}
+.box > .cons > div:nth-child(1) > right {
+  float: right;
+  width: 9.675rem;
+  height: 3.85rem;
+  margin-top: 0.425rem;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(1) {
+  font-size: 0.575rem;
+  color: #000;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(2) {
+  font-size: 0.475rem;
+  margin-top: 0.25rem;
+  color: #737373;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(3) {
+  font-size: 0.475rem;
+  margin-top: 0.2rem;
+  color: #737373;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(4) {
+  margin-top: 0.2rem;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(1) {
+  float: left;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(2) {
+  float: left;
+  font-size: 0.375rem;
+  color: #737373;
+  text-decoration: line-through;
+  margin-top: 0.09rem;
+  margin-left: 0.225rem;
+}
+.box > .cons > div:nth-child(1) > right > p:nth-child(4) > span:nth-child(3) {
+  float: right;
+  font-size: 0.45rem;
+  color: #ffa2b5;
+}
+.box > .cons > div:nth-child(2) {
+  height: 1rem;
+  margin: auto;
+  width: 14.65rem;
+}
+.box > .cons > div:nth-child(2) > a {
+  float: left;
+  margin-left: 0.3rem;
+  line-height: 1rem;
+  font-size: 0.475rem;
+}
+.box > .cons > div:nth-child(2) > a:nth-child(1) {
+  color: #ffa2b5;
+}
+.box > .cons > div:nth-child(2) > a:nth-child(3) {
+  color: #ffa2b5;
+}
+/*# sourceMappingURL=c11.css.map */

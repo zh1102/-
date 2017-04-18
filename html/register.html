@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+		<script src="../js/public_a.js"></script>
+		<title>注册</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<img src="../img/jxc/header_01.gif" alt="" id="Return"/>
+				<a href="javascript:;">注册</a>
+			</div>
+		</header>
+		<center>
+		    <div class="show" style="display: block;">
+				<div>
+					<input type="text" placeholder="请输入手机号" id="userName"/>
+					<img src="../img/jxc/tel_01.gif" alt="" />
+				</div>
+				<div>
+					<input type="text" placeholder="请输入验证码" id="yanz"/>
+					<img src="../img/jxc/pwd_01.gif" alt="" />
+					<button>获取验证码</button>
+				</div>
+				<div>
+					<input type="password" placeholder="请输入密码" id="pwd"/>
+					<img src="../img/jxc/pwd_01.gif" alt="" />
+				</div>
+				<div>
+					<button id="register">注册</button>
+				</div>
+			</div>
+			<div>注册即表示你同意并遵守<a href="javascript:;">完美政策</a></div>
+			<!--  第三方登录   -->
+			<div>
+				<span></span>
+				<p>第三方登录</p>
+				<span></span>
+				
+			</div>
+			<div>
+				<span></span>
+				<span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=4008768800&site=qq&menu=yes"><img style="width: 1.9rem;height: 1.9rem;" src="../img/jxc/QQ.gif"/></a></span>
+				<span></span>
+			</div>
+		</center>
+		
+	</body>
+	<script src="../js/public.js"></script>
+	<script type="text/javascript">
+		register.addEventListener('touchend',function(){
+			if(userName.value != "" && yanz.value != "" &&pwd.value != ""){
+				window.location.href = "homepage.html"
+			}
+		},false)
+	</script>
+</html>

@@ -1,0 +1,220 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+body {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+header {
+  width: 100%;
+  height: 1.875rem;
+  background: #fff;
+}
+header > div {
+  height: 1.875rem;
+  padding: 0 0.7rem;
+  line-height: 1.875rem;
+  display: flex;
+}
+header > div img {
+  width: 0.425rem;
+  height: 0.8rem;
+  margin-top: 0.5rem;
+}
+header > div > a:nth-child(2) {
+  font-size: 0.75rem;
+  color: #ff99cc;
+  flex: 1;
+  text-align: right;
+}
+header > div > a:nth-child(3) {
+  flex: 1;
+  background: url("../img/jxc/my_shezhi.gif") no-repeat;
+  background-size: 0.65rem 0.625rem;
+  background-position: right;
+}
+center > div {
+  height: 7.175rem;
+  background: url("../img/jxc/beijing.gif") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+center > div > img {
+  width: 3.25rem;
+  height: 3.2rem;
+  margin-top: 1rem;
+}
+center > div h2 {
+  line-height: 2.125rem;
+  font-size: 0.575rem;
+  color: #373737;
+}
+.my_bill {
+  display: block;
+  height: 1.675rem;
+  background-color: #fff;
+  border-bottom: 0.025rem solid #f7f7f7;
+  padding: 0 0.7rem;
+}
+.my_bill > span {
+  color: #373737;
+  font-size: 0.7rem;
+  line-height: 1.675rem;
+}
+.my_bill > span:nth-child(2) {
+  float: right;
+}
+.my_bill > span:nth-child(2) > img {
+  display: block;
+  width: 0.325rem;
+  height: 0.55rem;
+  margin-top: 0.65rem;
+}
+div.also {
+  clear: both;
+  height: 3.625rem;
+  padding: 0 0.7rem;
+  background: #fff;
+}
+div.also > div {
+  height: 1.9rem;
+  display: flex;
+  padding-top: 0.875rem;
+}
+div.also > div > span {
+  flex: 1;
+  text-align: center;
+  display: block;
+  font-size: 0.575rem;
+  color: #333333;
+  position: relative;
+}
+div.also > div > span > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+div.also > div > span:nth-child(2) {
+  border-left: 0.025rem solid #f4f4f4;
+}
+div.my_bill_01 {
+  margin-top: 0.4rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.05rem;
+  background: #FBFCF7;
+}
+footer ul {
+  width: 100%;
+  height: 100%;
+}
+footer ul li {
+  width: 20%;
+  height: 2.2rem;
+  float: left;
+}
+footer ul li a {
+  display: block;
+  width: 2.2rem;
+  height: 100%;
+  margin: 0 auto;
+}
+footer ul li a img {
+  width: 0.9rem;
+  height: 1rem;
+  margin: 0.1rem auto;
+  display: block;
+}
+footer ul li a span {
+  width: 100%;
+  line-height: 0.6rem;
+  text-align: center;
+  display: block;
+  color: #A6A6A4;
+}
+footer ul li .show {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: -0.55rem;
+}
+footer ul li .show img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=my.css.map */

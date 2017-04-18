@@ -1,0 +1,77 @@
+
+#ys-wrop header {
+  width: 100%;
+  height: 1.8rem;
+  border-bottom: 2px solid #f8f8f8;
+}
+#ys-wrop header .headerBx {
+  margin: 0 0.675rem;
+  position: relative;
+}
+#ys-wrop header .cs {
+  float: left;
+  height: 0.925rem;
+  margin-top: 0.425rem;
+  position: relative;
+  font-size: 0.65rem;
+  color: #ffa2b5;
+  padding-left: 0.9rem;
+}
+#ys-wrop header .cs img {
+  width: 0.425rem;
+    height: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#ys-wrop header ul.title {
+  width: 5.35rem;
+  margin: 0 auto;
+}
+#ys-wrop header ul.title li {
+  float: left;
+  line-height: 1.8rem;
+  margin-left: 1.175rem;
+  list-style:none;
+}
+#ys-wrop header ul.title li a {
+  font-size: 0.675rem;
+  color: #676767;
+  display: block;
+  height: 1.75rem;
+}
+#ys-wrop header ul.title li.active {
+  border-bottom: 2px solid #ffa2b5;
+  color: #ffa4b7;
+}
+#ys-wrop header ul.title li:nth-child(1) {
+  margin-left: 0.65rem;
+}
+#ys-wrop header .search {
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+#ys-wrop header .search img {
+  width: 100%;
+  height: 100%;
+}
+nav{
+	display:flex;
+	height:2.225rem;
+	border-bottom:0.025rem solid #e8e8e8;
+}
+nav > span{
+	flex:1;
+	line-height: 2.225rem;
+	text-align: center;
+	font-size: 0.65rem;
+}
+.mei{
+	width:9.575rem;
+	height: 10.975rem;
+	margin:4rem auto;
+}
+
